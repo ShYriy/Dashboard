@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header_container">
+            <div class="header_left">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <div class="header_projects active">
+                    <p>Projects</p>
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="header_notece">
+                    <img src="img/notification.svg" alt="">
+                </div>
+                <div class="header_account">
+                    <img src="img/foto.jpg" alt="">
+                    <p>Vorobev Aleksey</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="sitebar">
+        <img src="img/menu.png" alt="">
+    </div>
+    
+    <main class="main">
+        <div class="container">
+
+
+            <div class="content_header">
+                <div class="content_title">
+                    <div class="content_link_page">
+                        <a href="">
+                            <img src="img/Vector.svg" alt="">
+                        </a> /
+                        <a href="">Project</a> /
+                        <a href="">Test project name</a>
+                    </div>
+                    <h1>Test project name</h1>
+                </div>
+                <a href="" class="button">New work</a>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li>Works</li>
+                    <li>Bill of quantity</li>
+                    <li>Indirect costs</li>
+                    <li>Estimate summary</li>
+                    <li>Documents</li>
+                    <li>Shared documents</li>
+                    <li class="active">Dashboard</li>
+                    <li>Analytics</li>
+                    <li>Project details</li>
+                    <li>Schedule</li>
+                    <li>Contacts</li>
+                </ul>
+            </nav>
+
+            <div class="indicators">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="indicators_p">
+                            <p class="indicators_p_top">Approved</p>
+                            <p class="indicators_p_num yellow">50%</p>
+                            <p class="indicators_p_bottom">17/32</p>
+                        </div>
+                        <img src="img/hand.svg" alt="">
+                    </div>
+                    <div class="col-3">
+                        <div class="indicators_p">
+                            <p class="indicators_p_top">Proposals</p>
+                            <p class="indicators_p_num yellow">50%</p>
+                            <p class="indicators_p_bottom">17/32</p>
+                        </div>
+                        <img src="img/post.svg" alt="">
+                    </div>
+                    <div class="col-3">
+                        <div class="indicators_p">
+                            <p class="indicators_p_top">Choosed contractor</p>
+                            <p class="indicators_p_num red">5</p>
+                            <p class="indicators_p_bottom">5/14</p>
+                        </div>
+                        <img src="img/flag.svg" alt="">
+                    </div>
+                    <div class="col-3">
+                        <div class="indicators_p">
+                            <p class="indicators_p_top">Preferred proposals</p>
+                            <p class="indicators_p_num indicators_p_summ">€4,194,236</p>
+                            <p class="indicators_p_bottom green">100% from average</p>
+                        </div>
+                        <img src="img/euro.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="search">
+                <form action="">
+                    <div class="row">
+                        <div class="col-3 search_input">
+                            <input type="search" placeholder="Work name">
+                        </div>
+                        <div class="col-3">
+                            <input type="text" placeholder="Work status">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="table">
+                <div class="table_heading">
+                    <div class="table_col table_heading_col">Work</div>
+                    <div class="table_col table_heading_col">Work type</div>
+                    <div class="table_col table_heading_col"># proposals</div>
+                    <div class="table_col table_heading_col">Preferred proposal</div>
+                    <div class="table_col table_heading_col">Contractor</div>
+                    <div class="table_col table_heading_col">Status</div>
+                    <div class="table_col table_heading_col">Work start</div>
+                    <div class="table_col table_heading_col">Deadline</div>
+                </div>
+
+
+                <div class="table_content">
+                    <div class="table_col table_content_col">Test request 1</div>
+                    <div class="table_col table_content_col">1 - Earthworks</div>
+                    <div class="table_col table_content_col">2/2</div>
+                    <div class="table_col table_content_col">€1,000</div>
+                    <div class="table_col table_content_col">MR Group</div>
+                    <div class="table_col table_content_col">
+                        <span class="table_col_color purple_bg">Decision</span>
+                    </div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col">12:00 09.06.2020</div>
+                </div>
+                <div class="table_content">
+                    <div class="table_col table_content_col">Test request 2</div>
+                    <div class="table_col table_content_col">1 - Site organization</div>
+                    <div class="table_col table_content_col">1/1</div>
+                    <div class="table_col table_content_col">€1,0000</div>
+                    <div class="table_col table_content_col">MR Group2</div>
+                    <div class="table_col table_content_col">
+                        <span class="table_col_color purple_bg">Decision</span>
+                    </div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col">12:00 09.06.2020</div>
+                </div>
+                <div class="table_content">
+                    <div class="table_col table_content_col">Test request 3</div>
+                    <div class="table_col table_content_col">1 - Earthworks</div>
+                    <div class="table_col table_content_col">2/2</div>
+                    <div class="table_col table_content_col">€1,000</div>
+                    <div class="table_col table_content_col">MR Group</div>
+                    <div class="table_col table_content_col">
+                        <span class="table_col_color purple_bg">Decision</span>
+                    </div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col red">12:00 09.06.2020</div>
+                </div>
+                <div class="table_content">
+                    <div class="table_col table_content_col">Test request 4</div>
+                    <div class="table_col table_content_col">1 - Site organization</div>
+                    <div class="table_col table_content_col">1/1</div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col">
+                        <span class="table_col_color yellow_bg">Waiting Proposals</span>
+                    </div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col red">12:00 09.06.2020</div>
+                </div>
+                <div class="table_content">
+                    <div class="table_col table_content_col">Test request 5</div>
+                    <div class="table_col table_content_col">1 - Earthworks</div>
+                    <div class="table_col table_content_col">2/2</div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col">
+                        <span class="table_col_color yellow_bg">Waiting Proposals</span>
+                    </div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col">12:00 09.06.2020</div>
+                </div>
+                <div class="table_content">
+                    <div class="table_col table_content_col">Test request 6</div>
+                    <div class="table_col table_content_col">1 - Site organization</div>
+                    <div class="table_col table_content_col">1/2</div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col">
+                        <span class="table_col_color grey_bg">Empty</span>
+                    </div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col">12:00 09.06.2020</div>
+                </div>
+                <div class="table_content">
+                    <div class="table_col table_content_col">Test request 7</div>
+                    <div class="table_col table_content_col">1 - Earthworks</div>
+                    <div class="table_col table_content_col">2/2</div>
+                    <div class="table_col table_content_col">€1,000</div>
+                    <div class="table_col table_content_col">MR Group</div>
+                    <div class="table_col table_content_col">
+                        <span class="table_col_color purple_bg">Decision</span>
+                    </div>
+                    <div class="table_col table_content_col"></div>
+                    <div class="table_col table_content_col">12:00 09.06.2020</div>
+                </div>
+            </div>
+
+
+            <div class="preferred">
+                <div class="row">
+                    <div class="preferred_col_6 col-6">
+                        <p class="preferred_heading">Preferred proposals</p>
+                        <div class="preferred_col">
+                            <p>Test request 3</p>
+                            <div class="preferred_row">
+                                <div class="preferred_col_line">
+                                    <div class="preferred_line_result" style="width: 100%;"></div>
+                                </div>
+                                <div class="preferred_col_price">€ 4,183,120</div>
+                            </div>
+                        </div>
+                        <div class="preferred_col">
+                            <p>Test request</p>
+                            <div class="preferred_row">
+                                <div class="preferred_col_line">
+                                    <div class="preferred_line_result" style="width: 20%;"></div>
+                                </div>
+                                <div class="preferred_col_price">€ 2,400</div>
+                            </div>
+                        </div>
+                        <div class="preferred_col">
+                            <p>Test request 6</p>
+                            <div class="preferred_row">
+                                <div class="preferred_col_line">
+                                    <div class="preferred_line_result" style="width: 17%;"></div>
+                                </div>
+                                <div class="preferred_col_price">€ 2,207</div>
+                            </div>
+                        </div>
+                        <div class="preferred_col">
+                            <p>Test request 5</p>
+                            <div class="preferred_row">
+                                <div class="preferred_col_line">
+                                    <div class="preferred_line_result" style="width: 10%;"></div>
+                                </div>
+                                <div class="preferred_col_price">€ 1,600</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="preferred_col_6 col-6">
+                        <p class="preferred_heading">Works</p>
+                        <div class="row">
+                            <div class="col-6 preferred_circle">
+                                <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M62.1262 157.978C47.9735 154.734 34.9706 147.699 24.5114 137.628C14.0521 127.557 6.53087 114.83 2.75397 100.81C-1.02293 86.7901 -0.913083 72.0067 3.07173 58.0445C7.05655 44.0824 14.7661 31.468 25.3738 21.5536L80 80L62.1262 157.978Z" fill="#6D3CB7"/>
+                                    <path d="M26.4809 20.5382C40.7318 7.71156 59.1154 0.429637 78.2841 0.0184034L80 80L26.4809 20.5382Z" fill="#939FAD"/>
+                                    <path d="M80 0C91.1792 1.33311e-07 102.234 2.34301 112.452 6.87793C122.671 11.4129 131.825 18.039 139.325 26.3291C146.825 34.6192 152.504 44.3891 155.996 55.0089C159.489 65.6286 160.716 76.8624 159.6 87.9858C158.484 99.1092 155.05 109.875 149.517 119.59C143.985 129.304 136.478 137.751 127.481 144.386C118.484 151.021 108.195 155.697 97.2802 158.111C86.3649 160.526 75.0646 160.626 64.1082 158.406L80 80L80 0Z" fill="#FFC109"/>
+                                    <circle cx="80" cy="80" r="70" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="col-6">
+                                <ul class="preferred_list">
+                                    <li>Empty - 3 (21%)</li>
+                                    <li>Waiting Proposals - 6 (43%)</li>
+                                    <li>Decision - 5 (36%)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </main>
+
+
+</body>
+</html>
